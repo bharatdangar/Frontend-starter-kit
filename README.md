@@ -4,7 +4,7 @@ _A lean and powerful, gulp-based Bootstraps for better front-end coding with [Gu
 
 ## Demo
 
-[zoxon.github.io/gulp-front](http://zoxon.github.io/gulp-front/)
+[See Demo](https://bharatdangar.github.io/Frontend-starter-kit/dist/)
 
 ## Documentation
 
