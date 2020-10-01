@@ -1,0 +1,88 @@
+
+//////// Custom Colors
+$color-blue: #000E9F;
+$color-dark: #313131;
+$color-gray: #EDEDED;
+$color-gray-2: #898989;
+
+//////// Typography
+
+$h1-size: 85px;
+$h2-size: 58px;
+$h3-size: 32px;
+$p: 20px;
+$small-font-size: 16px;
+
+$h1-size-tablet: 65px;
+$h2-size-tablet: 40px;
+$h3-size-tablet: 30px;
+$p-tablet: 18px;
+
+$h1-size-mobile: 40px;
+$h2-size-mobile: 30px;
+$h3-size-mobile: 25px;
+$p-mobile: 16px;
+
+$h1-line-height: 75px;
+$h2-line-height: 65px;
+$h3-line-height: 34px;
+$p-line-height: 32px;
+
+$h1-line-height-tablet: 65px;
+$h2-line-height-tablet: 50px;
+$h3-line-height-tablet: 32px;
+$p-line-height-tablet: 28px;
+
+$h1-line-height-mobile: 40px;
+$h2-line-height-mobile: 40px;
+$h3-line-height-mobile: 27px;
+$p-line-height-mobile: 24px;
+
+//FONT WEIGHT
+$bold: 800;
+$medium: 500;
+$regular: 400;
+
+//COLORS
+$color-white: #ffffff;
+$color-black: #000000;
+
+//ANIMATIONS
+$bezier-1: cubic-bezier(0.65, 0.05, 0.36, 1);
+$bezier-2: cubic-bezier(0.25, -0.25, 0.75, 1.25);
+$speed-1: 0.1s;
+$speed-2: 0.2s;
+$speed-3: 0.3s;
+$speed-4: 0.4s;
+$speed-5: 0.5s;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 1132px,
+	xl: 1398px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 1100px,
+	xl: 1338px
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12;
+$grid-gutter-width: 16px;

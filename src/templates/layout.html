@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+		<title>Project name</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="keywords" content="">
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+		<div id="wrapper">
+			{% include "partials/header.html" %}
+			{% block content %} {% endblock %}
+			{% include "partials/footer.html" %}
+		</div>
+		<!-- Optional JavaScript -->
+		<script src="js/app.js" async defer></script>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+/* 
+ * Body Font Style 
+ */
+body { 
+	@include bodyfonts($regular);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+ * Main Font Sizes 
+ */
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+	@include headingfonts;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1,.h1 {
+  font-size: $h1-size;
+  line-height: $h1-line-height;
+	@media only screen and (max-width: 1131px) {
+		font-size: $h1-size-tablet;
+		line-height: $h1-line-height-tablet;
+	}
+	@media screen and (max-width: 767px) {
+		font-size: $h1-size-mobile;
+		line-height: $h1-line-height-mobile;
+	}
+}
+
+h2,.h2 {
+  font-size: $h2-size;
+  line-height: $h2-line-height;
+	@media only screen and (max-width: 1131px) {
+		font-size: $h2-size-tablet;
+		line-height: $h2-line-height-tablet;
+	}
+	@media screen and (max-width: 767px) {
+		font-size: $h2-size-mobile;
+		line-height: $h2-line-height-mobile;
+	}
+}
+
+h3,.h3 {
+  font-size: $h3-size;
+  line-height: $h3-line-height;
+	@media only screen and (max-width: 1131px) {
+		font-size: $h3-size-tablet;
+		line-height: $h3-line-height-tablet;
+	}
+	@media screen and (max-width: 767px) {
+		font-size: $h3-size-mobile;
+		line-height: $h3-line-height-mobile;
+	}
+}
+
+p {
+	font-size: $p;
+	line-height: $p-line-height;
+	@media only screen and (max-width: 1131px) {
+		font-size: $p-tablet;
+		line-height: $p-line-height-tablet;
+	}
+	@media screen and (max-width: 767px) {
+		font-size: $p-mobile;
+		line-height: $p-line-height-mobile;
+	}
+}
+
+/*
+ * list Style
+ */
+
+ul,
+ol {
+	list-style: none;
+}
+
+ol { 
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+a:hover,
+a:focus,
+a:active{
+	text-decoration: none;
+	outline: none;
+}

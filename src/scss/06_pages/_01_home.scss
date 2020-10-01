@@ -1,0 +1,11 @@
+body {
+    //background-color: darken(color('blue'), 25%);
+    @include headingfonts();
+}
+
+h1 {
+
+    //color: color('blue');
+    //margin: map-get($spacers,4)*5 ;
+    //margin: spacer('4') ;
+}
